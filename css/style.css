@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/*Classe para bordas*/
+.borda{
+    border: 1px solid red;
+}
+
+.container{
+    margin: 5px auto;
+    width: 70%;
+}
+
+/*Menu horizontal*/
+.cabecalho{
+    padding: 0px;
+    background-color: #e8f4ff;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    padding: 0px;
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul{
+    font-size: 1.3em;
+    list-style-type: none;
+}
+.menu li{
+    display: inline;
+    padding: 0px 20px;
+}
+.menu a, a:link{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: rgb(66, 66, 66);
+}
+
+/*Conteudo*/
+.conteudo{
+    padding: 0px;
+    background-color: #ede8ff;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*Formulario*/
+.insereDados{
+    padding: auto;
+}
+.insereDados div{
+    width: 60%;
+    text-align: end;
+}
+.insereDados label{
+    padding: 5px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+.insereDados input{
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 0px;
+    margin: 5px 0px;
+    width: 50%;
+}
+.botao{
+    border: 1px solid red;
+    cursor: pointer;
+    width: 20px;
+}
+
+/*Rodapé*/
+.rodape{
+    color: white;
+    background-color: #737373;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.5)
+}
+.rodape h4{
+    margin: 5px;
+}
+.rodape a, a:link{
+    color: white;
+}
+.rodape a:hover{
+    color: #d9d9d9;
+}
