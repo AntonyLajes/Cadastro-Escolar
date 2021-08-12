@@ -17,7 +17,7 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="">Cadastro</a>
+                    <a href="./index.html">Cadastro</a>
                 </li>
                 <li>
                     <a href="">Consulta</a>
@@ -31,42 +31,37 @@
             </ul>
         </div>
     </header>
-    <div class="container">
-        <article>
-            <div class="conteudo">
-                <div class="insereDados">
-                    <form>
-                        <div>
-                            <label for="nome">Nome:</label>
-                            <input type="text" name="" id="nome" placeholder="Digite seu nome completo"> <br>
-                        </div>
-                        <div>
-                            <label for="email">Email:</label>
-                            <input type="email" name="" id="email" placeholder="Digite seu email completo"> <br>
-                        </div>
-                        <div>
-                            <label for="cpf">CPF:</label>
-                            <input type="text" name="" id="cpf" placeholder="Digite seu CPF"> <br>
-                        </div>
-                        <div>
-                            <label for="">Endereco:</label>
-                            <input type="text" name="" id="endereco" placeholder="Digite seu endereço completo"> <br>
-                        </div>
-                        <div>
-                            <label for="nascimento">Nascimento:</label>
-                            <input type="date" name="" id="nascimento"> <br>
-                        </div>
-                        <div class="botao">
-                            <input type="button" name="" id="enviar" value="Enviar"> <br>
-                        </div>
-                    </form>
-                    <div style="clear: both;">
-    
-                    </div>
+    <article class="container">
+        <div class="conteudo">
+            <form class="formulario">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input class="paddingEsquerda" type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
                 </div>
-            </div>
-        </article>
-    </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input class="paddingEsquerda" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </div>
+                <div>
+                    <input type="submit" name="enviar" id="enviar" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </article>
+    <article class="container">
+        <div class="conteudo">
+            <table class="tabela">
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>b</td>
+                </tr>
+            </table>
+        </div>
+    </article>
     <footer class="rodape">
         <h4>Reproduzido para estudos sem fins lucrativos --- <a href="https://github.com/AntonyLajes" target="_blank">AntonyLajes&copy</a></h4>
     </footer>
